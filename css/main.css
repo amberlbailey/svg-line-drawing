@@ -7,11 +7,13 @@ h1 {
   left: .5em;
   color: #fff;
   z-index: 100;
+  opacity: 0;
   animation: appear 3s ease;
 }
 
 #narwhal-eye {
   animation: appear 3s ease;
+  opacity: 0;
 }
 
 @keyframes appear {
@@ -29,6 +31,48 @@ h1 {
   animation: stroke 1s linear forwards;
   stroke-dasharray: 1981.415px;
   stroke-dashoffset: 1981.415px;
+}
+
+#rainbow-violet {
+  animation: stroke 7s linear forwards;
+  stroke-dasharray: 11124.371px;
+  stroke-dashoffset: 11124.371px;
+}
+
+#rainbow-indigo {
+  animation: stroke 7s linear forwards;
+  stroke-dasharray: 11124.371px;
+  stroke-dashoffset: 11124.371px;
+}
+
+#rainbow-blue {
+  animation: stroke 7s linear forwards;
+  stroke-dasharray: 11124.371px;
+  stroke-dashoffset: 11124.371px;
+}
+
+#rainbow-green {
+  animation: stroke 7s linear forwards;
+  stroke-dasharray: 11124.371px;
+  stroke-dashoffset: 11124.371px;
+}
+
+#rainbow-yellow {
+  animation: stroke 7s linear forwards;
+  stroke-dasharray: 11124.371px;
+  stroke-dashoffset: 11124.371px;
+}
+
+#rainbow-orange {
+  animation: stroke 7s linear forwards;
+  stroke-dasharray: 11124.371px;
+  stroke-dashoffset: 11124.371px;
+}
+
+#rainbow-red {
+  animation: stroke 10s linear forwards;
+  stroke-dasharray: 11124.371px;
+  stroke-dashoffset: 11124.371px;
 }
 
 @keyframes stroke {
