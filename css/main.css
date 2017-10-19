@@ -1,3 +1,22 @@
 html {
-  font-family: "Unica One", cursive;
+  font-family: "Unica One", sans-serif;
+}
+
+h1 {
+  top: 2.1em;
+  left: .5em;
+  color: #fff;
+  z-index: 100;
+  animation: appear 3s ease;
+}
+
+@keyframes appear {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
